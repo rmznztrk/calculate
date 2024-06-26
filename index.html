@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <div id="ID_calculateMachine">
+        <div id="ID_screenDiv">
+            <input type="text" value="" id="ID_screen">
+        </div>
+        <div id="ID_buttons">
+            <div id="ID_123"> 
+                <button id="ID_1" value="1" onclick="writeToScreen(value)">1</button>
+                <button id="ID_2" value="2" onclick="writeToScreen(value)">2</button>
+                <button id="ID_3" value="3" onclick="writeToScreen(value)">3</button>
+            </div>
+            <div id="ID_456"> 
+                <button id="ID_4" value="4" onclick="writeToScreen(value)">4</button>
+                <button id="ID_5" value="5" onclick="writeToScreen(value)">5</button>
+                <button id="ID_6" value="6" onclick="writeToScreen(value)">6</button>
+            </div>
+            <div id="ID_789"> 
+                <button id="ID_7" value="7" onclick="writeToScreen(value)">7</button>
+                <button id="ID_8" value="8" onclick="writeToScreen(value)">8</button>
+                <button id="ID_9" value="9" onclick="writeToScreen(value)">9</button>
+            </div>
+            <div id="ID_operators"> 
+                <button id="ID_sum" value="+" onclick="writeToScreen(value)"> + </button>
+                <button id="ID_sub" value="-" onclick="writeToScreen(value)"> - </button>
+                <button id="ID_mul" value="*" onclick="writeToScreen(value)"> * </button>
+                <button id="ID_div" value="/" onclick="writeToScreen(value)"> / </button> 
+                <button id="ID_equal" value="=" onclick="writeToScreen(value)">=</button>
+            </div>
+            <div id="ID_onOff"> 
+                <button id="btn-on" onclick="setOn()">ON</button>
+                <button id="btn-off" >OFF</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
