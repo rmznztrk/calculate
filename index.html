@@ -11,32 +11,32 @@
 </head>
 
 <body>
-    <div id="ID_calculateMachine">
-        <div id="ID_screenDiv">
-            <input type="text" value="" id="ID_screen">
+    <div class="container">
+        <div class="screen-calculate-container">
+            <input type="text" value="" id="screen-calculate">
         </div>
-        <div id="ID_buttons">
-            <div id="ID_123"> 
-                <button id="ID_1" value="1" onclick="writeToScreen(value)">1</button>
-                <button id="ID_2" value="2" onclick="writeToScreen(value)">2</button>
-                <button id="ID_3" value="3" onclick="writeToScreen(value)">3</button>
+        <div class="buttons">
+            <div class="buttons123"> 
+                <button value="1" onclick="writeToScreen(value)">1</button>
+                <button value="2" onclick="writeToScreen(value)">2</button>
+                <button value="3" onclick="writeToScreen(value)">3</button>
             </div>
-            <div id="ID_456"> 
-                <button id="ID_4" value="4" onclick="writeToScreen(value)">4</button>
-                <button id="ID_5" value="5" onclick="writeToScreen(value)">5</button>
-                <button id="ID_6" value="6" onclick="writeToScreen(value)">6</button>
+            <div class="buttons456"> 
+                <button value="5" onclick="writeToScreen(value)">5</button>
+                <button value="4" onclick="writeToScreen(value)">4</button>
+                <button value="6" onclick="writeToScreen(value)">6</button>
             </div>
-            <div id="ID_789"> 
-                <button id="ID_7" value="7" onclick="writeToScreen(value)">7</button>
-                <button id="ID_8" value="8" onclick="writeToScreen(value)">8</button>
-                <button id="ID_9" value="9" onclick="writeToScreen(value)">9</button>
+            <div class="buttons789"> 
+                <button value="7" onclick="writeToScreen(value)">7</button>
+                <button value="8" onclick="writeToScreen(value)">8</button>
+                <button value="9" onclick="writeToScreen(value)">9</button>
             </div>
-            <div id="ID_operators"> 
-                <button id="ID_sum" value="+" onclick="writeToScreen(value)"> + </button>
-                <button id="ID_sub" value="-" onclick="writeToScreen(value)"> - </button>
-                <button id="ID_mul" value="*" onclick="writeToScreen(value)"> * </button>
-                <button id="ID_div" value="/" onclick="writeToScreen(value)"> / </button> 
-                <button id="ID_equal" value="=" onclick="writeToScreen(value)">=</button>
+            <div class="operators"> 
+                <button id="sum" value="+" onclick="writeToScreen(value)"> + </button>
+                <button id="sub" value="-" onclick="writeToScreen(value)"> - </button>
+                <button id="mul" value="*" onclick="writeToScreen(value)"> * </button>
+                <button id="div" value="/" onclick="writeToScreen(value)"> / </button> 
+                <button id="equal" value="=" onclick="writeToScreen(value)">=</button>
             </div>
             <div id="ID_onOff"> 
                 <button id="btn-on" onclick="setOn()">ON</button>

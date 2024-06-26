@@ -4,10 +4,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function writeToScreen(value) {
     if (value == "=") {
-      document.getElementById("ID_screen").value = value;
+      document.getElementById("screen-calculate").value = value;
     } else {
-      document.getElementById("ID_screen").value += value;
-      const x = document.getElementById("ID_screen").value;
+      document.getElementById("screen-calculate").value += value;
+      const x = document.getElementById("screen-calculate").value;
       console.log(x);
     }
   }
